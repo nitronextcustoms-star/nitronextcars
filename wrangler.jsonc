@@ -2,10 +2,19 @@
   "name": "nitronextcars",
   "pages_build_output_dir": "dist",
   "compatibility_date": "2024-04-03",
-  "logs": {
-    "enabled": true,
+  "observability": {
+    "enabled": false,
     "head_sampling_rate": 1,
-    "persist": true,
-    "invocation_logs": true
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
   }
 }

@@ -1,0 +1,6 @@
+name = "nitronextcars"
+compatibility_date = "2026-04-12"
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
